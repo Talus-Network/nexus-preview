@@ -185,7 +185,7 @@ class InstagramPostPlanner:
 
 
 # Runs the Instagram Post Planner example using the provided Nexus package ID.
-def run_ig_post_planner_example(client, package_id, model_id, mode_owner_cap):
+def run_ig_post_planner_example(client, package_id, model_id, model_owner_cap):
     print("## Welcome to the Instagram Post Planner")
     print("-------------------------------")
     product_website = input(
@@ -196,7 +196,7 @@ def run_ig_post_planner_example(client, package_id, model_id, mode_owner_cap):
     )
 
     planner = InstagramPostPlanner(
-        client, package_id, model_id, mode_owner_cap, product_website, product_details
+        client, package_id, model_id, model_owner_cap, product_website, product_details
     )
     result = planner.run()
 
