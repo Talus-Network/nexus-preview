@@ -171,7 +171,7 @@ class TripPlanner:
 
 
 # Runs the Trip Planner example using the provided Nexus package ID.
-def run_trip_planner_example(client, package_id, model_id, mode_owner_cap):
+def run_trip_planner_example(client, package_id, model_id, model_owner_cap):
     print(f"{Fore.CYAN}## Welcome to Trip Planner using Nexus{Style.RESET_ALL}")
     print(f"{Fore.YELLOW}-------------------------------{Style.RESET_ALL}")
 
@@ -190,7 +190,7 @@ def run_trip_planner_example(client, package_id, model_id, mode_owner_cap):
         client,
         package_id,
         model_id,
-        mode_owner_cap,
+        model_owner_cap,
         origin,
         cities,
         date_range,
