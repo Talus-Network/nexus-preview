@@ -185,7 +185,7 @@ class CliCluster:
 
 
 # Runs the CLI agent example using the provided Nexus package ID.
-def run_cli_cluster_example(client, package_id, model_id, mode_owner_cap):
+def run_cli_cluster_example(client, package_id, model_id, model_owner_cap):
     cluster_name, cluster_description = get_user_input_for_cluster()
 
     num_agents = int(input("How many agents would you like to define? "))
