@@ -1,16 +1,12 @@
 # Nexus
 
-🚨 **DISCLAIMER:PLEASE READ BEFORE CONTRIBUTING OR USING THIS REPO** 🚨
+> [!IMPORTANT]
+> **For the upcoming version of nexus, check [nexus-sdk][nexus-sdk] and our [docs][docs].**
+> For updates on our latest work, follow our [blog][blog].
 
-This repository is **no longer actively maintained for long-term support**. The maintainers are currently working on an updated and improved architecture, and as such, this codebase should only be used for **educational purposes** or reference.
-
-✅ You may explore the code to learn from past implementations.  
-❌ Do **NOT** expect long-term updates, bug fixes, or compatibility improvements.  
-❌ Do **NOT** contribute new features with the expectation of them being merged for future support.  
-
-For updates on our latest work, follow our [blog][blog].  
-
-Thank you for your understanding! 🙏  
+> [!CAUTION]
+>
+> This repository is no longer actively maintained. The maintainers are currently working on an updated and improved architecture, and as such, this codebase should only be used for **educational purposes** or reference. You may explore the code to learn from past implementations.
 
 ## Overview
 
@@ -130,6 +126,8 @@ like 'Tool', 'Task' etc come from there. We also use crewAI tools in the impleme
 <!-- References -->
 
 [talus]: https://talus.network/
+[docs]: https://docs.talus.network/
+[nexus-sdk]: https://github.com/Talus-Network/nexus-sdk
 [blog]: https://blog.talus.network/
 [litepaper]: https://talus.network/litepaper.pdf
 [crewAI]: https://github.com/crewAIInc/crewAI
